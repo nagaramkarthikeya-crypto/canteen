@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Canteen Home</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+
+<body>
+
+<div class="search-bar">
+<input type="text" placeholder="Search food...">
+<span>🔍</span>
+</div>
+
+<h2 class="section-title">Hot Deals</h2>
+
+<div class="deals" id="dealsContainer"></div>
+
+<div class="cart-btn" onclick="openCart()">
+🛒 Cart
+</div>
+
+<div class="bottom-nav">
+
+<div class="nav-item">
+🏠
+<p>Home</p>
+</div>
+
+<div class="nav-item">
+🍳
+<p>Preparation</p>
+</div>
+
+<div class="nav-item" onclick="openProfile()">
+👤
+<p>Profile</p>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
